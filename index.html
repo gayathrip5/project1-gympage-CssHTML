@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jas Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Kdam Thmor Pro', sans-serif;
+            margin: 0;
+            color: antiquewhite;
+            padding: 0;
+            height: 900px;
+            background-image: url('https://files.wallpaperpass.com/2019/10/fitness%20wallpaper%20091%20-%201600x1068.jpg');
+        }
+
+
+        .left img {
+            width: 100px;
+            height: 60px;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+/* position: fixed; */
+            display: inline-block;
+            color: aliceblue;
+            position: absolute;
+            left: 60px;
+            top: 20px
+        }
+
+        .mid {
+            /* border: 2px solid blue; */
+            display: block;
+            margin: 20px auto;
+            
+            color: aliceblue;
+            width: 53%;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+             position: absolute; 
+            right: 34px;
+            top: 20px;
+             
+            color: antiquewhite;
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(113, 113, 107);
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 0px 9px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 2px solid grey;
+            color: white;
+            cursor: pointer;
+            background-color: rgb(19, 18, 18);
+            padding: 3px 4px;
+        }
+
+
+        .btn:hover {
+            background-color: grey;
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 20px;
+            font-style: oblique;
+            font-weight: bolder;
+            color:black;
+        }
+        .form input{
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            width: 314px;
+            margin: 13px auto;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .container h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* background-color: grey;
+            border-radius: 10px; */
+            /* border: 2px solid black; */
+            width:314px ;
+            margin: auto;
+            font-size: 28px;
+            color: white;
+        }
+        .container button{
+            margin: 20px auto;
+            width: 314px;
+            display: block;
+            text-align: center;
+            background-color:white;
+            color:black;
+            font-style: italic;
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 22px;
+        }
+        .container button:hover{
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img
+                src="https://thumbs.dreamstime.com/b/white-dumbbell-gym-logo-black-background-workout-sign-vector-template-172909186.jpg">
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="a">home</a></li>
+                <li><a href="a">about</a></li>
+                <li><a href="a">fitness calculator</a></li>
+                <li><a href="a">contact us</a></li>
+            </ul>
+            <!-- midbox for logo -->
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+            <!-- right box for buttons     -->
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="enter your emailaddress">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="enter your mobile number">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="enter your locailty">
+            </div>
+            <button class="button">submit</button>
+             
+            </form>
+            
+             
+    </div>
+</body>
+
+</html>
